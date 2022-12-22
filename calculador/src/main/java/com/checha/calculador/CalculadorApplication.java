@@ -7,9 +7,13 @@ import org.springframework.stereotype.Service;
 @Service
 public class CalculadorApplication {
 
+
 	public static void main(String[] args) {
 		SpringApplication.run(CalculadorApplication.class, args);
 	}
-	public int sum(int a, int b){ return a+b;}
+
+	public int sum(int a, int b) {
+		return a + b;
+	}
 
 }
